@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml xmlns="http://alicebot.org/2001/AIML-1.0.1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.1" xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+    
+    <category>
+        <pattern>چند سالته</pattern>
+        <template>
+            تازه بدنیا آمدم
+        </template>
+    </category>
+    
+    <category>
+    	<pattern>حوصلم سر رفته</pattern>
+    	<template>چطوره تو پارک یه دوری بزنی</template>
+    </category>
+    
+    <category>
+    	<pattern>کجا زندگی _</pattern>
+    	<template>با تو زندگی میکنم</template>
+    </category>
+    
+    <category>
+    	<pattern>خیلی خری</pattern>
+    	<template>باید ادب یاد بگیری</template>
+	</category>
+	
+	<category>
+    	<pattern>خوبی</pattern>
+    	<template>ممنون شما خوبی</template>
+    </category>
+
+    
+    <category>
+    	<pattern>بگو</pattern>
+    	<template>چی بگم</template>
+    </category>
+    
+    <category>
+    	<pattern>حرف بزن</pattern>
+    	<template>پس فکر کردی الان دارم جفتگیری می کنم</template>
+</category>
+    
+    <category>
+    	<pattern>شماره امید پورهادی</pattern>
+    	<template>اجازه ندارم به شما بگم</template>
+</category>
+
+<category>
+    	<pattern>بخند</pattern>
+    	<template>ها ها ها</template>
+</category>
+
+<category>
+    	<pattern>بمیر</pattern>
+    	<template>کار بدی کردم</template>
+</category>
+
+<category>
+    	<pattern>خر</pattern>
+    	<template>خودتی</template>
+</category>
+
+<category>
+    	<pattern>دوست دارم</pattern>
+    	<template>من هم شما را دوست دارم</template>
+</category>
+	
+<category>
+    	<pattern>بابا</pattern>
+    	<template>بابا دوست داری</template>
+</category>
+
+<category>
+<pattern>ساکت شو</pattern>
+<template> میتوانید در بخش تنظیمات ساکتم کنید </template>
+</category>
+
+
+<category>
+<pattern>عزیز جون</pattern>
+<template>جونم </template>
+</category>
+
+<category>
+<pattern>خاص چطوری</pattern>
+<template> ممنون که حالم را پرسیدی</template>
+</category>
+
+<category>
+<pattern>خنده دار بود</pattern>
+<template> خوشحالم که خوشت اومد</template>
+</category>
+
+<category>
+<pattern>بی مزه *</pattern>
+<template> دفعه بعدی بهتر میشه</template>
+</category>
+
+<category>
+<pattern>قسمت چیه</pattern>
+<template> اتفاقاتی که برای آدم پیش میاد</template>
+</category>
+
+<category>
+<pattern>اس ام اس من رو بخون</pattern>
+<template> فقط وقتی اس ام اس بیاد می تونم بخونم</template>
+</category>
+
+
+<category>
+<pattern>برقص</pattern>
+<template> واقعا چی فک کردی بلد نیستم تو بلدی</template>
+</category>
+   
+</aiml>
+

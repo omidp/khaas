@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="lang_checkbox"
+        android:title="@string/pref_title_social_recommendations"
+        android:summary="@string/pref_description_social_recommendations"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="lang_voice"
+        android:title="@string/pref_title_social_recommendations"
+        android:summary="@string/voiceless"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="lang_sms"
+        android:title="@string/pref_title_social_recommendations"
+        android:summary="@string/read_sms"
+        android:defaultValue="true" />
+
+    <Preference android:key="voice_pref" android:title="@string/voice_setting">
+
+    </Preference>
+
+
+
+</PreferenceScreen>

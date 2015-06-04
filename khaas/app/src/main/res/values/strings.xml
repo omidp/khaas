@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">خاص</string>
+    <string name="no_connection">اتصال به شبکه را چک کنید</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="action_delay">3 ثانیه وقت برای انصراف دارید</string>
+
+    <string name="joke">جوک بگو</string>
+    <string name="payam">پیام</string>
+    <string name="tamas">زنگ</string>
+    <string name="alarm">قرار بزار</string>
+    <string name="navigate">بگرد</string>
+    <string name="hello">شما هنوز اسم خود را به من نگفته اید . اسم من خاص است</string>
+    <string name="welcome">خوش آمدی</string>
+
+    <string name="noResult">موردی یافت نشد</string>
+    <string name="serverError">ضربه مغزی شدم</string>
+    <string name="speechError">امکان تشخیص صدا وجود ندارد</string>
+    <string name="onlyPersian">فقط فارسی صحبت میکنم</string>
+
+    <string name="wait">لطفا کمی صبر کنید</string>
+    <string name="read">بخوان</string>
+    <string name="send">ارسال</string>
+    <string name="back">بازگشت</string>
+    <string name="fatal_error">ضربه مغزی شدم لطفا با سازندم تماس بگیرید :(</string>
+    <string name="connection_error">امکان ارتباط با سرور نمی باشد</string>
+
+    <string name="command_hint">فرمان مورد نظر را تایپ کنید</string>
+    <string name="sms_reply">متن پیام را اینجا وارد کنید</string>
+
+    <string name="player_error">امکان پخش صدا وجود ندارد</string>
+    <string name="audio_progress">درحال آماده سازی صدا %1$d</string>
+    <string name="percent">درصد</string>
+
+    <string name="unkonwn_provider">امکان مکان یابی وجود ندارد</string>
+    <string name="voice_setting">تنظیمات صدا</string>
+    <string name="read_sms">نمایش صفحه پیامک</string>
+    <string name="sms_send_successfully">پیام با موفقیت ارسال شد</string>
+
+    <string name="alarm_set">قرار تنظیم شد</string>
+    <string name="invalid_time_format">فرمت ساعت اشتباه است</string>
+
+    <string name="stop_music">  بسه  </string>
+
+</resources>

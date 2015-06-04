@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="khaas_blue_dark">#5172bc</color>
+    <color name="khaas_blue">#5b7dc2</color>
+    <color name="khaas_blue_dark_2">#567ac0</color>
+    <color name="khaas_blue_light">#6ca5d7</color>
+    <color name="khaas_blue_2">#2a3e92</color>
+    <color name="khaas_white">#ffffff</color>
+    <color name="khaas_blue_3">#5670DE</color>
+    <color name="khaas_blue_gray">#606DA4</color>
+    <color name="khaas_blue_gray_1">#8394DE</color>
+    <integer-array name="colors">
+        <item>@color/khaas_blue_dark</item>
+        <item>@color/khaas_blue</item>
+        <item>@color/khaas_blue_dark_2</item>
+        <item>@color/khaas_blue_light</item>
+        <item>@color/khaas_blue_2</item>
+    </integer-array>
+
+    <color name="gray">#ff5a5d5a</color>
+    <color name="gray_2">#ff747674</color>
+    <color name="gray_light">#ff9d9e9d</color>
+    <color name="gray_light_3">#7f7f7f</color>
+
+</resources>

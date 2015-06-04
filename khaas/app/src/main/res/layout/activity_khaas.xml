@@ -1,0 +1,163 @@
+<com.omidbiz.khaas.ui.SizeNotifierRelativeLayout
+    android:id="@+id/chat_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KhaasActivity">
+
+
+    <LinearLayout
+        android:id="@+id/menuLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:orientation="horizontal"
+        style="@style/DefaultMenu"
+        android:background="@drawable/menu_border"
+        >
+
+        <ImageButton
+            android:id="@+id/callImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_action"
+            style="@style/DefaultImageButton"/>
+
+        <ImageButton
+            android:id="@+id/smsImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_sms"
+            style="@style/DefaultImageButton"/>
+
+        <ImageButton
+            android:id="@+id/jokeImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_emo_laugh"
+            style="@style/DefaultImageButton"/>
+
+        <ImageButton
+            android:id="@+id/navigateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_navigate"
+            style="@style/DefaultImageButton"/>
+
+        <ImageButton
+            android:id="@+id/alarmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_alarm"
+            style="@style/DefaultImageButton"/>
+
+        <ImageButton
+            android:id="@+id/refreshImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_refresh_action"
+            style="@style/DefaultImageButton"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLinear"
+        android:layout_below="@+id/menuLinear"
+        android:orientation="vertical"
+        android:background="@drawable/background_hd"
+        >
+
+        <com.omidbiz.khaas.ui.LayoutListView
+            android:id="@+id/chat_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:gravity="center_vertical"
+            android:paddingBottom="3dp"
+            android:divider="@null"
+            android:paddingTop="4dp"
+            android:stackFromBottom="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:background="@color/khaas_white"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ProgressBar
+            android:id="@+id/speechProgressBar"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/custom_progress_bar"/>
+
+        <LinearLayout
+            android:id="@+id/contentLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/footer_content"
+            >
+
+
+
+            <ImageButton
+                android:id="@+id/sendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_send_action"
+                android:visibility="gone"
+                android:background="@drawable/image_button"/>
+
+            <ToggleButton
+                android:id="@+id/speechToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mic_button"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textOff=""
+                android:textOn=""
+                >
+                <requestFocus/>
+            </ToggleButton>
+
+            <EditText
+                android:id="@+id/command"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:nextFocusUp="@+id/command"
+                android:textColor="@color/khaas_white"
+                android:textColorHint="@color/khaas_white"
+                android:nextFocusDown="@+id/command"
+                android:hint="@string/command_hint"
+                android:layout_weight="1"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.omidbiz.khaas.ui.SizeNotifierRelativeLayout>

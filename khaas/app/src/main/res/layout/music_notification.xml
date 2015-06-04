@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/music_cancel"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/music_notification_border"
+        android:textColor="@color/khaas_white"
+        android:text="@string/stop_music"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@color/gray"
+                  android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/music_albumName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/khaas_white"
+            style="@style/Left_Right_MP"
+            />
+        <TextView
+            android:id="@+id/music_artistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/khaas_white"
+            style="@style/Left_Right_MP"
+            />
+    </LinearLayout>
+</LinearLayout>

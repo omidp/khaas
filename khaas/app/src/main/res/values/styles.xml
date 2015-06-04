@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+    <style name="DefaultEditText">
+        <item name="android:textColor">#979797</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="DefaultImageButton">
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="DefaultButton">
+        <item name="android:background">@color/khaas_blue_dark</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textColor">@color/khaas_white</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="DefaultFooter">
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+    <style name="DefaultMenu">
+        <item name="android:background">@drawable/menu_border</item>
+    </style>
+
+
+    <style name="DefaultHeaderText">
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/khaas_white</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="KhaasSmsContent">
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/khaas_blue_dark_2</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="Left_Right_MP">
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+
+</resources>

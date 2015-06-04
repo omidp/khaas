@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_hd"
+                android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/telHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@drawable/menu_border"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/headerTxt"
+                style="@style/DefaultHeaderText"
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telHeader"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/smsTextContent"
+            style="@style/KhaasSmsContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_light_3"
+            android:visibility="gone"
+            android:gravity="center|bottom"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/speechProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:progressDrawable="@drawable/custom_progress_bar"/>
+
+        <LinearLayout
+            android:background="@drawable/footer_content"
+            android:layout_width="fill_parent"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/smsContent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom"
+                android:inputType="textMultiLine"
+                android:hint="@string/sms_reply"
+                android:textColor="@color/khaas_white"
+                android:textColorHint="@color/khaas_white"
+                android:lines="8"
+                android:maxLines="10"
+                android:minLines="6"
+                android:scrollbars="vertical"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:paddingTop="2dp"
+            android:background="@color/khaas_white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sendSmsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send"
+                style="@style/DefaultButton"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:visibility="gone"/>
+
+            <ToggleButton
+                android:id="@+id/speechToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mic_button"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textOff=""
+                android:textOn=""
+                >
+
+                <requestFocus/>
+            </ToggleButton>
+
+            <Button
+                android:id="@+id/readButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/read"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                style="@style/DefaultButton"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

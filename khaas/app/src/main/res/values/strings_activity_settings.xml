@@ -1,0 +1,16 @@
+<resources>
+    <string name="title_activity_settings">تنظیمات</string>
+
+    <string name="pref_header_notifications">عمومی</string>
+
+    <string name="pref_title_social_recommendations"></string>
+    <string name="pref_description_social_recommendations">
+        با غیرفعال کردن این گزینه می توانید انگلیسی به برنامه فرمان دهید
+    </string>
+
+    <string name="voiceless">
+        با غیرفعال کردن این گزینه خاص لال میشود
+    </string>
+
+
+</resources>
