@@ -8,11 +8,11 @@ About
 Add a conversation
 ====
 
-+ create your conversation and help us to improve Khass ability to speak by adding your conversation to [https://github.com/omidp/khaas/blob/master/khaas_conversation.aiml](this file)
++ create your conversation and help us to improve Khass ability to speak by adding your conversation to [this file](https://github.com/omidp/khaas/blob/master/khaas_conversation.aiml)
 
 
 Demo 
 ====
 
-+ Download [https://github.com/omidp/khaas/blob/master/khaas.apk](khaas.apk) 
++ Download [APK](https://github.com/omidp/khaas/blob/master/khaas.apk) 
 
