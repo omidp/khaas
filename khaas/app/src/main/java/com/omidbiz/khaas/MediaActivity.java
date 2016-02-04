@@ -69,17 +69,29 @@ public abstract class MediaActivity extends ActionBarActivity
         soundId = soundPool.load(this, R.raw.beep, 1);
     }
 
+    private volatile PlayAudio pa;
+
     protected void processResult(BotResponse result)
     {
         if (result.getAction().equals(BotResponse.ACTION.NOTHING))
         {
             if (voice)
             {
-                PlayAudio pa = new PlayAudio();
+                if(pa != null && pa.getStatus().equals(AsyncTask.Status.RUNNING))
+                    pa.cancel(true);
+                pa = new PlayAudio();
                 pa.execute(result.getMsg());
             }
 
 
+        }
+    }
+
+    protected void cancelMediaPlayerIfPlaying()
+    {
+        if(mediaPlayer != null && mediaPlayer.isPlaying()) {
+            mediaPlayer.stop();
+            mediaPlayer.reset();
         }
     }
 
