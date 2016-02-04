@@ -147,6 +147,7 @@ public class KhaasActivity extends SpeechRecognizerActivity
             @Override
             public void onClick(View v)
             {
+                cancelMediaPlayerIfPlaying();
                 String jsonCommand = KhaasUtil.buildJsonCommand(getString(R.string.tamas));
                 ExecuteHandler executeHandler = new ExecuteHandler();
                 executeHandler.execute(jsonCommand);
@@ -158,6 +159,7 @@ public class KhaasActivity extends SpeechRecognizerActivity
             @Override
             public void onClick(View v)
             {
+                cancelMediaPlayerIfPlaying();
                 String jsonCommand = KhaasUtil.buildJsonCommand(getString(R.string.payam));
                 ExecuteHandler executeHandler = new ExecuteHandler();
                 executeHandler.execute(jsonCommand);
@@ -169,6 +171,7 @@ public class KhaasActivity extends SpeechRecognizerActivity
             @Override
             public void onClick(View v)
             {
+                cancelMediaPlayerIfPlaying();
                 String jsonCommand = KhaasUtil.buildJsonCommand(getString(R.string.joke));
                 ExecuteHandler executeHandler = new ExecuteHandler();
                 executeHandler.execute(jsonCommand);
@@ -188,6 +191,7 @@ public class KhaasActivity extends SpeechRecognizerActivity
             @Override
             public void onClick(View v)
             {
+                cancelMediaPlayerIfPlaying();
                 String cmd = commandText.getText().toString();
                 if (KhaasUtil.isNotEmpty(cmd))
                 {
@@ -203,6 +207,7 @@ public class KhaasActivity extends SpeechRecognizerActivity
             @Override
             public void onClick(View v)
             {
+                cancelMediaPlayerIfPlaying();
                 String jsonCommand = KhaasUtil.buildJsonCommand(getString(R.string.navigate));
                 ExecuteHandler executeHandler = new ExecuteHandler();
                 executeHandler.execute(jsonCommand);
@@ -215,6 +220,7 @@ public class KhaasActivity extends SpeechRecognizerActivity
             @Override
             public void onClick(View v)
             {
+                cancelMediaPlayerIfPlaying();
                 String jsonCommand = KhaasUtil.buildJsonCommand(getString(R.string.alarm));
                 ExecuteHandler executeHandler = new ExecuteHandler();
                 executeHandler.execute(jsonCommand);
